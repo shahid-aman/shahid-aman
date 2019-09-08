@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Hangfire & WCF!
+title: Integrating Hangfire with a WCF application
 ---
 
-## Integrating Hangfire with a WCF application
 Often times, there could be scenarios where transient errors can affect reliability of applications - especially if your app or service lives in integration space. The third party endpoint could be temporarily unavailable due to outage, unplanned downtime or even a network partition.  
 So, how do we build applications which integrate with various third party endpoints, perform complex orchestrations and do all this in a reliable way?  
 After some googling, I found that Polly and Hangfire as the top frameworks fit for my use case.  
