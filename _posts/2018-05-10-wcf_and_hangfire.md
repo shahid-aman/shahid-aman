@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Integrating Hangfire with a WCF application
 ---
 
